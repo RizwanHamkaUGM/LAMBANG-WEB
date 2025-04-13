@@ -1,8 +1,9 @@
 body {
+    display: flex;
     margin: 0;
     overflow-x: hidden;
     font-family: 'Georgia', serif;
-    background: url('../img/pattern-bg.png') repeat;
+    background: url('../Img/pattern-bg.png') repeat;
 }
 
 .navbar-container {
@@ -345,6 +346,7 @@ footer {
 .footer-icon {
     display: flex;
     align-items: center;
+    text-align: left;
     margin: 0.3rem 0;
     color: #000;
 }
