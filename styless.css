@@ -1,8 +1,11 @@
 @media screen and (max-width: 768px) {
+    body {
+        display: flex;
+    }
     .navbar {
         flex-direction: column;
         align-items: stretch;
-        padding: 15px;
+        padding: 5px;
         gap: 15px;
         height: auto; 
         width: 90%;
@@ -13,9 +16,10 @@
         width: 100%;
     }
     .navbar-links {
-        align-items: stretch;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        gap: 10px;
+        gap: 4px;
     }
     
     .navlink-button {
@@ -34,8 +38,8 @@
     }
     
     .navlink-button img {
-        width: 18px;
-        height: 18px;
+        width: 22px;
+        height: 22px;
     }
 
     .main-text {
@@ -99,18 +103,21 @@
     }
 
     .faq-card {
-        width: 90%;
+        width: 80%;
         padding: 20px;
     }
 
     footer {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
         gap: 20px;
     }
 
     .footer-section {
         padding: 0;
     }
+    .footer-section h2{
+        text-align: center;
+    }
+    
+    
 }
